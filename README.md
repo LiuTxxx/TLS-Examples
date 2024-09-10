@@ -11,7 +11,6 @@ go run fileName.go
 If want to regenerate the key and cert
 
 ```bash
-openssl req -x509 -nodes -days 365 -newkey rsa:4096 -keyout key_name.key -out de
-cert_name.crt -config openssl.cnf -extensions req_ext
+openssl req -x509 -nodes -days 365 -newkey rsa:4096 -keyout key_name.key -out cert_name.crt -config openssl.cnf -extensions req_ext
 ```
 
