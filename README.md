@@ -5,6 +5,7 @@ This repo gives an simple example of TLS configure upon TCP/HTTP/RPC in go.
 To run these code:
 
 ```bash
+# run server and client with cmd below in two terminal
 go run fileName.go
 ```
 
